@@ -77,7 +77,7 @@ static void		run_ants(t_lem *l, t_solution *s, t_room **ant,
 {
 	int				i;
 	int				ant_num;
-	char			buff[BUFF_SIZE];
+	char			buff[PRINT_BUFF_SIZE];
 	int				buff_i;
 
 	buff_i = 0;

@@ -74,7 +74,6 @@ void			free_all(t_lem *l)
 	int				i;
 	int				j;
 
-	gnl_buffree(FREE_ALL, NO_PARAM);
 	i = -1;
 	while (++i < l->stdin_size)
 		free(l->stdin[i]);

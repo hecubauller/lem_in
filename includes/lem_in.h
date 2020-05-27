@@ -44,7 +44,7 @@
 
 # define MAX_CAPAC  1
 
-# define BUFF_SIZE  2048
+# define PRINT_BUFF_SIZE  2048
 
 /*
 ** ---------- STRUCTURES ----------
