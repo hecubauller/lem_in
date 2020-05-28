@@ -63,10 +63,9 @@ all: $(NAME)
 $(OBJ_PATH)%.o: $(SRC_PATH)%.c
 	@mkdir -p $(OBJ_PATH)
 	@gcc -Wall -Werror -Wextra $(INC) -o $@ -c $<
-	@echo -n •
 
 $(NAME): $(OBJ)
-	@echo "\n$(YELLOW)'Libft' is ready.$(RES)"
+	@echo "$(YELLOW)$(NAME) is ready.$(RES)"
 	@ar -rc $(NAME) $?
 	@ranlib $(NAME)
 	
@@ -79,6 +78,6 @@ clean:
 fclean: clean
 	@rm -rf $(OBJ_PATH)
 	@rm -f $(NAME)
-	@echo "$(RED)'Libft' is deleted.$(RES)"
+	@echo "$(RED)$(NAME) is deleted.$(RES)"
 
 re: fclean all	
