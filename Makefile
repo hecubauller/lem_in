@@ -76,14 +76,12 @@ $(OBJ_PATH)%.o:		$(SRC_PATH)%.c $(INC) $(LIB_INC)
 
 clean:
 					@make -C $(LIB_PATH) fclean
-					@rm -f $(OBJ) $(OBJ2)
-					@rm -rf $(OBJ_PATH) $(OBJ_PATH2)
+					@rm -f $(OBJ)
+					@rm -rf $(OBJ_PATH)
 					@echo "$(MAG)Cleaning [ $(NAME) ] OK$(RES)"
-					@echo "$(MAG)Cleaning [ $(NAME2) ] OK$(RES)"
 
 fclean:				clean
-					@rm -f $(NAME) $(NAME2)
+					@rm -f $(NAME)
 					@echo "$(MAG)Delete [ $(NAME) ] OK$(RES)"
-					@echo "$(MAG)Delete [ $(NAME2) ] OK$(RES)"
 
 re:					fclean all

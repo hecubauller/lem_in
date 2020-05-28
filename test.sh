@@ -3,7 +3,7 @@ SCRIPT_DIR=$(cd $(dirname $0) && pwd)
 
 cd ${SCRIPT_DIR}
 # SOLUTION
-./generator --big-superposition > test_map
+./generator $1 > test_map
 ./lem-in < test_map > test_solution
 
 # PRINT
