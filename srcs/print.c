@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   print.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: huller <ubyrd@student.42.fr>               +#+  +:+       +#+        */
+/*   By: huller <huller@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/07 20:18:10 by huller            #+#    #+#             */
 /*   Updated: 2020/05/14 12:42:00 by huller           ###   ########.fr       */

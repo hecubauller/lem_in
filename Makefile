@@ -3,7 +3,7 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: huller <marvin@42.fr>                      +#+  +:+       +#+         #
+#    By: huller <huller@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/05/01 20:42:02 by huller            #+#    #+#              #
 #    Updated: 2020/05/24 14:30:03 by huller           ###   ########.fr        #
